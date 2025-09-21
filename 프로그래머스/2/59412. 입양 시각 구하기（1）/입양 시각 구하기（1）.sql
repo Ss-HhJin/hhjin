@@ -6,4 +6,4 @@ from
     ANIMAL_OUTS 
 where date_format(DATETIME , '%H') between 9 and 19
 group by date_format(DATETIME , '%H')
-order by date_format(DATETIME , '%H') 
+order by date_format(DATETIME , '%H')
